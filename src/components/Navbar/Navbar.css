@@ -1,0 +1,28 @@
+.navbar {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    background-color: #202020;
+    justify-content: space-around;
+}
+
+.navbar-logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar-logo-svg {
+    height: 45px;
+}
+
+.navbar-cart {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.navbar-cart-svg {
+    height: 30px;
+}
