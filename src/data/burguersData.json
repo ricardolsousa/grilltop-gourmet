@@ -1,103 +1,123 @@
 [
     {
-      "nome": "Classic Burger",
-      "descricao": "Um hambúrguer clássico com alface, tomate, queijo cheddar e molho especial.",
-      "preco": 8.99
+      "name": "Classic Burger",
+      "description": "Um hambúrguer clássico com alface, tomate, queijo cheddar e molho especial.",
+      "price": 8.99,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Bacon BBQ Burger",
-      "descricao": "Hambúrguer suculento com bacon crocante, queijo defumado e molho BBQ.",
-      "preco": 9.99
+      "name": "Bacon BBQ Burger",
+      "description": "Hambúrguer suculento com bacon crocante, queijo defumado e molho BBQ.",
+      "price": 9.99,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Mushroom Swiss Burger",
-      "descricao": "Hambúrguer coberto com cogumelos salteados e queijo suíço derretido.",
-      "preco": 10.49
+      "name": "Mushroom Swiss Burger",
+      "description": "Hambúrguer coberto com cogumelos salteados e queijo suíço derretido.",
+      "price": 10.49,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Spicy Jalapeño Burger",
-      "descricao": "Hambúrguer picante com jalapeños fatiados, queijo pepper jack e molho especial.",
-      "preco": 9.79
+      "name": "Spicy Jalapeño Burger",
+      "description": "Hambúrguer picante com jalapeños fatiados, queijo pepper jack e molho especial.",
+      "price": 9.79,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Double Cheeseburger",
-      "descricao": "Dois hambúrgueres com queijo, alface, cebola, picles e molho especial.",
-      "preco": 12.99
+      "name": "Double Cheeseburger",
+      "description": "Dois hambúrgueres com queijo, alface, cebola, picles e molho especial.",
+      "price": 12.99,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Avocado Ranch Burger",
-      "descricao": "Hambúrguer com abacate, bacon, queijo cheddar e molho ranch.",
-      "preco": 11.49
+      "name": "Avocado Ranch Burger",
+      "description": "Hambúrguer com abacate, bacon, queijo cheddar e molho ranch.",
+      "price": 11.49,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Blue Cheese Burger",
-      "descricao": "Hambúrguer com queijo gorgonzola, cebolas caramelizadas e rúcula.",
-      "preco": 10.99
+      "name": "Blue Cheese Burger",
+      "description": "Hambúrguer com queijo gorgonzola, cebolas caramelizadas e rúcula.",
+      "price": 10.99,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Veggie Burger",
-      "descricao": "Hambúrguer vegetariano feito com legumes frescos e grãos, servido com molho especial.",
-      "preco": 9.49
+      "name": "Veggie Burger",
+      "description": "Hambúrguer vegetariano feito com legumes frescos e grãos, servido com molho especial.",
+      "price": 9.49,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Hawaiian Burger",
-      "descricao": "Hambúrguer com fatias de abacaxi, presunto, queijo suíço e molho teriyaki.",
-      "preco": 11.99
+      "name": "Hawaiian Burger",
+      "description": "Hambúrguer com fatias de abacaxi, presunto, queijo suíço e molho teriyaki.",
+      "price": 11.99,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Tex-Mex Burger",
-      "descricao": "Hambúrguer com guacamole, jalapeños, queijo pepper jack e nachos crocantes.",
-      "preco": 10.79
+      "name": "Tex-Mex Burger",
+      "description": "Hambúrguer com guacamole, jalapeños, queijo pepper jack e nachos crocantes.",
+      "price": 10.79,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Caprese Burger",
-      "descricao": "Hambúrguer com tomate, mussarela de búfala, manjericão fresco e pesto.",
-      "preco": 10.49
+      "name": "Caprese Burger",
+      "description": "Hambúrguer com tomate, mussarela de búfala, manjericão fresco e pesto.",
+      "price": 10.49,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "BBQ Ranch Burger",
-      "descricao": "Hambúrguer com molho barbecue, bacon crocante, queijo cheddar e alface.",
-      "preco": 11.29
+      "name": "BBQ Ranch Burger",
+      "description": "Hambúrguer com molho barbecue, bacon crocante, queijo cheddar e alface.",
+      "price": 11.29,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Greek Lamb Burger",
-      "descricao": "Hambúrguer de cordeiro com queijo feta, azeitonas, pepino e molho tzatziki.",
-      "preco": 12.49
+      "name": "Greek Lamb Burger",
+      "description": "Hambúrguer de cordeiro com queijo feta, azeitonas, pepino e molho tzatziki.",
+      "price": 12.49,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Southwest Chipotle Burger",
-      "descricao": "Hambúrguer com pimentões grelhados, queijo pepper jack e molho chipotle.",
-      "preco": 10.99
+      "name": "Southwest Chipotle Burger",
+      "description": "Hambúrguer com pimentões grelhados, queijo pepper jack e molho chipotle.",
+      "price": 10.99,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Breakfast Burger",
-      "descricao": "Hambúrguer com ovo frito, bacon, queijo americano e molho de café da manhã.",
-      "preco": 11.79
+      "name": "Breakfast Burger",
+      "description": "Hambúrguer com ovo frito, bacon, queijo americano e molho de café da manhã.",
+      "price": 11.79,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Portobello Mushroom Burger",
-      "descricao": "Hambúrguer com cogumelo portobello grelhado, queijo suíço e cebolas caramelizadas.",
-      "preco": 10.99
+      "name": "Portobello Mushroom Burger",
+      "description": "Hambúrguer com cogumelo portobello grelhado, queijo suíço e cebolas caramelizadas.",
+      "price": 10.99,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Tandoori Chicken Burger",
-      "descricao": "Hambúrguer de frango tandoori com cebola roxa, alface e molho de iogurte.",
-      "preco": 11.49
+      "name": "Tandoori Chicken Burger",
+      "description": "Hambúrguer de frango tandoori com cebola roxa, alface e molho de iogurte.",
+      "price": 11.49,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "California Turkey Burger",
-      "descricao": "Hambúrguer de peru com abacate, tomate, alface e molho aioli.",
-      "preco": 10.79
+      "name": "California Turkey Burger",
+      "description": "Hambúrguer de peru com abacate, tomate, alface e molho aioli.",
+      "price": 10.79,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Fiesta Chorizo Burger",
-      "descricao": "Hambúrguer com chorizo, queijo cheddar, pimentões e molho picante.",
-      "preco": 11.99
+      "name": "Fiesta Chorizo Burger",
+      "description": "Hambúrguer com chorizo, queijo cheddar, pimentões e molho picante.",
+      "price": 11.99,
+      "image": "/images/burguers/burguer.jpg"
     },
     {
-      "nome": "Truffle Mushroom Swiss Burger",
-      "descricao": "Hambúrguer com cogumelos trufados, queijo suíço e aioli de alho.",
-      "preco": 12.49
+      "name": "Truffle Mushroom Swiss Burger",
+      "description": "Hambúrguer com cogumelos trufados, queijo suíço e aioli de alho.",
+      "price": 12.49,
+      "image": "/images/burguers/burguer.jpg"
     }
   ]
   

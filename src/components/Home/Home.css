@@ -1,0 +1,17 @@
+.full-container {
+    min-height: calc(100vh - 55px);
+    padding-top: 55px;
+    background-color: #131313;
+}
+
+.title {
+    text-align: center;
+    color: #ffffff;
+}
+
+.card-container {
+    margin: 0px 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
