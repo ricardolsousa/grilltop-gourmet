@@ -36,3 +36,21 @@
 .navbar-cart-svg {
     height: 30px;
 }
+
+.navbar-cart-counter {
+    position: absolute;
+    background-color: #aa480c;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 4px;
+    margin-left: 16px;
+}
+
+.navbar-cart-number {
+    font-size: 12px;
+    color: #ffffff;
+}

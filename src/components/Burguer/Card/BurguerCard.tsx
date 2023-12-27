@@ -6,19 +6,18 @@ import BurguerCardOptions from '../Card/Options/BurguerCardOptions';
 
 interface BurguerCardProps {
     burguer: Burguer
-    addToCart: (burguer: Burguer) => void;
 }
 
 const BurguerCard = (props: BurguerCardProps) => {
     
-    const { burguer, addToCart } = props;
+    const { burguer } = props;
 
     return (
         <div className="card">
             <div className="card-content">
                 <img src={burguer.image} alt="" className="card-image" />
                     <BurguerCardContent burguer={burguer}/>
-                    <BurguerCardOptions burguer={burguer} addToCart={addToCart}/>
+                    <BurguerCardOptions burguer={burguer}/>
             </div>
         </div>
     )
