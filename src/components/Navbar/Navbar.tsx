@@ -1,7 +1,16 @@
 import "../Navbar/Navbar.css";
 import { Link } from 'react-router-dom';
+import { connect } from 'react-redux';
 
-const Navbar = () => {
+interface NavbarProps {
+    cart: [];
+}
+
+const Navbar = (props: NavbarProps) => {
+
+    const {
+        cart
+    } = props;
 
     return (
         <div className="full-navbar">
@@ -15,10 +24,19 @@ const Navbar = () => {
                     <Link to="/payment">
                         <img src="/images/cart.svg" alt="" className="navbar-cart-svg" />
                     </Link>
+                    <div className="navbar-cart-counter">
+                        <span className="navbar-cart-number">{cart.length}</span>
+                    </div>
                 </div>
             </div>
         </div>
     )
 }
 
-export default Navbar;
+const mapStateToProps = (state: any) => {
+    return {
+      cart: state.cart.cart,
+    };
+  };
+
+export default connect(mapStateToProps)(Navbar);
