@@ -1,0 +1,18 @@
+tbody tr {
+    border-bottom: 1px solid #fff;
+}
+
+tbody tr:last-child {
+    border-bottom: 0px;
+}
+
+tbody tr td {
+    text-align: left;
+    padding: 8px;
+    border-right: 1px solid #fff;
+    color: #fff;
+}
+
+tbody tr td:last-child {
+    border-right: 0px;
+}

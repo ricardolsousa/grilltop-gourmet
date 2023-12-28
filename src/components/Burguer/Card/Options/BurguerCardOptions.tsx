@@ -1,7 +1,7 @@
 import React from 'react';
 import "../Options/BurguerCardOptions.css";
 import { Burguer } from '../../../../interfaces/Burguer/interfaces';
-import { connect, useDispatch } from 'react-redux';
+import { connect } from 'react-redux';
 import { addToCart } from '../../../../actions/Cart/cartActions';
 import { bindActionCreators } from 'redux';
 
