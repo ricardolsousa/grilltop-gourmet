@@ -5,4 +5,11 @@ export const addToCart = (item: any) => {
       payload: item,
     };
   };
+
+  export const removeFromCart = (item: any) => {
+    return {
+      type: 'REMOVE_FROM_CART',
+      payload: item,
+    };
+  };
   
