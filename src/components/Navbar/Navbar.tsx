@@ -1,6 +1,8 @@
 import "../Navbar/Navbar.css";
 import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
+import { useRef, useState } from "react";
+import Cart from "../Cart/Cart";
 
 interface NavbarProps {
     cart: [];
@@ -12,6 +14,12 @@ const Navbar = (props: NavbarProps) => {
         cart
     } = props;
 
+    const [showModal, setShowModal] = useState<boolean>(false);
+
+    const openCartModal = () => {
+        setShowModal(true);
+    }
+
     return (
         <div className="full-navbar">
             <div className="navbar">
@@ -20,14 +28,15 @@ const Navbar = (props: NavbarProps) => {
                         <img src="/images/grilltop-gourmet.svg" alt="" className="navbar-logo-svg" />
                     </Link>
                 </div>
-                <div className="navbar-cart">
-                    <Link to="/payment">
-                        <img src="/images/cart.svg" alt="" className="navbar-cart-svg" />
-                    </Link>
+                <div className="navbar-cart" onClick={openCartModal}>
+                    <img src="/images/cart.svg" alt="" className="navbar-cart-svg" />
                     <div className="navbar-cart-counter">
                         <span className="navbar-cart-number">{cart.length}</span>
                     </div>
                 </div>
+                {showModal && (
+                    <Cart setShowModal={setShowModal}/>
+                )}
             </div>
         </div>
     )
