@@ -4,6 +4,7 @@ import "../Cart/Cart.css";
 import { connect } from "react-redux";
 import CartTable from "./Table/CartTable";
 import CartEmpty from "./Empty/CartEmpty";
+import CartCheckout from "./Checkout/CartCheckout";
 
 interface CartProps {
     cart: {
@@ -19,7 +20,6 @@ const Cart = (props: CartProps) => {
 
     const { cart, setShowModal } = props;
     const cartModalRef = useRef<HTMLDivElement>(null);
-    const closeModalRef = useRef<HTMLDivElement>(null);
 
     const closeModal = (event: MouseEvent) => {
         if (cartModalRef.current && (!cartModalRef.current.contains(event.target as Node))) {
@@ -37,7 +37,7 @@ const Cart = (props: CartProps) => {
 
     return (
         <div className="cart-modal">
-            <div className="cart-modal-content" ref={cartModalRef}>
+            <div className="cart-modal-container" ref={cartModalRef}>
                 <div className="cart-modal-close" onClick={() => setShowModal(false)}>
                     <span>X</span>
                 </div>
@@ -45,7 +45,10 @@ const Cart = (props: CartProps) => {
                     Cart
                 </div>
                 {cart.length ?
-                    <CartTable />
+                    <div className="cart-modal-content">
+                        <CartTable />
+                        <CartCheckout />
+                    </div>
                     :
                     <CartEmpty />
                 }

@@ -1,0 +1,16 @@
+.btn-checkout {
+    background-color: #aa480c;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cart-price {
+    display: flex;
+    color: #fff;
+    justify-content: flex-end;
+    font-size: 20px;
+    margin-right: 32px;
+}
