@@ -10,10 +10,13 @@
     backdrop-filter: contrast(0.7);
 }
 
-.cart-modal-content {
+.cart-modal-container {
     width: 70%;
     height: 70%;
     background-color: #131313;
+    display: flex;
+    flex-direction: column;
+    padding: 16px
 }
 
 .cart-modal-close {
@@ -23,8 +26,11 @@
 }
 
 .cart-modal-close span {
-    margin-right: 16px;
-    margin-top: 8px;
+    font-weight: 600;
+    color: #131313;
+}
+
+.cart-modal-close span {
     padding: 8px;
     background-color: #fff;
     border-radius: 50%;
@@ -46,4 +52,11 @@
     font-weight: 600;
     font-size: 24px;
     color: #fff;
+}
+
+.cart-modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
 }
