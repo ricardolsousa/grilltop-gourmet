@@ -2,7 +2,7 @@
 const Payment = () => {
 
     return (
-        <div>
+        <div className="full-container">
             Payment
         </div>
     )

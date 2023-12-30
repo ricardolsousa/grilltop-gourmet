@@ -1,0 +1,5 @@
+.full-container {
+    min-height: calc(100vh - 55px);
+    padding-top: 55px;
+    background-color: #131313;
+}
