@@ -5,19 +5,34 @@ This application also have a payment page where you can, again, see all items yo
 
 This app is just a frontend web app developed using React. 
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
+**1) Startup**
 
-### `npm start`
+Clone project repository to your local directory:
 
-Runs the app in the development mode.\
+```bash
+git clone git@github.com:ricardolsousa/grilltop-gourmet.git
+```
 
-### `npm run build`
+Install project dependencies:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**2) Build**
+
+Run development mode
+
+```bash
+npm start
+```
+
+Run production mode
+
+```bash
+npm run build
+npm run start
+```
 
