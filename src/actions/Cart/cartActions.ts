@@ -12,4 +12,11 @@ export const addToCart = (item: any) => {
       payload: item,
     };
   };
+
+  export const removeAllFromCart = () => {
+    return {
+      type: 'REMOVE_ALL_FROM_CART',
+      payload: []
+    }
+  }
   

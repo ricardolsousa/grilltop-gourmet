@@ -1,8 +1,6 @@
-import React, { useState } from "react";
 import "../Home/Home.css";
 import burguersData from "../../data/burguersData.json"
 import BurguerCard from "../Burguer/Card/BurguerCard";
-import { Burguer } from "../../interfaces/Burguer/interfaces";
 
 const Home = () => {
 
