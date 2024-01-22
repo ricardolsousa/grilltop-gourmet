@@ -6,6 +6,7 @@
     align-items: center;
     background-color: #202020;
     position: fixed;
+    z-index: 2;
 }
 
 .navbar {

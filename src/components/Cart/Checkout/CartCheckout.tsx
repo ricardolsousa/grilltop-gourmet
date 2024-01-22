@@ -6,12 +6,13 @@ import { useNavigate } from 'react-router-dom';
 
 interface CartCheckoutProps {
     cart: CartItem[];
-    setShowModal: (show: boolean) => void;
+    setShowModal?: (show: boolean) => void;
+    withCheckout: boolean;
 }
 
 const CartCheckout = (props: CartCheckoutProps) => {
 
-    const { cart, setShowModal } = props;
+    const { cart, setShowModal, withCheckout } = props;
     const navigate = useNavigate();
 
     const totalPrice = useMemo(() => {
@@ -19,7 +20,7 @@ const CartCheckout = (props: CartCheckoutProps) => {
     }, [cart]);
 
     const goToPayment = () => {
-        setShowModal(false);
+        if (setShowModal) setShowModal(false);
         navigate('/payment')
     }
 
@@ -28,9 +29,11 @@ const CartCheckout = (props: CartCheckoutProps) => {
             <div className="cart-price">
                 <span>Total: {totalPrice}€</span>
             </div>
-            <div>
-                <button className="btn-checkout" onClick={goToPayment}>Checkout</button>
-            </div>
+            {withCheckout &&
+                <div>
+                    <button className="btn-checkout" onClick={goToPayment}>Checkout</button>
+                </div>
+            }
         </div>
     )
 }

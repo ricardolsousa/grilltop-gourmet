@@ -47,7 +47,7 @@ const Cart = (props: CartProps) => {
                 {cart.length ?
                     <div className="cart-modal-content">
                         <CartTable />
-                        <CartCheckout setShowModal={setShowModal} />
+                        <CartCheckout setShowModal={setShowModal} withCheckout={true}/>
                     </div>
                     :
                     <CartEmpty />
