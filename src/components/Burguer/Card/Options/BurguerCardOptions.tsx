@@ -4,6 +4,7 @@ import { Burguer } from '../../../../interfaces/Burguer/interfaces';
 import { connect } from 'react-redux';
 import { addToCart } from '../../../../actions/Cart/cartActions';
 import { bindActionCreators } from 'redux';
+import { useToasts } from 'react-toast-notifications';
 
 interface BurguerCardOptionsProps {
     burguer: Burguer;
@@ -13,9 +14,11 @@ interface BurguerCardOptionsProps {
 const BurguerCardOptions = (props: BurguerCardOptionsProps) => {
     
     const { burguer, addToCart } = props;
+    const { addToast } = useToasts();
 
     const handleAddToCart = (item: Burguer) => {
         addToCart(item);
+        addToast('Item added to cart!', { appearance: 'success', autoDismiss: true });
       };
 
     return (

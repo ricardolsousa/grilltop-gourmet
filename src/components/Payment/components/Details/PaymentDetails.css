@@ -1,0 +1,37 @@
+.payment-person-details-container {
+    width: 40%;
+}
+
+.payment-person-details-title {
+    color: #fff;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    margin: 16px 0px;
+}
+
+.payment-person-details {
+    margin: 24px;
+}
+
+.payment-person-input {
+    display: flex;
+}
+
+.payment-person-input input {
+    width: 100%;
+    border-radius: 4px;
+    height: 32px;
+    margin: 8px 0px;
+    border: 1px solid #131313;
+}
+
+.btn-finish-order {
+    background-color: #aa480c;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
